@@ -1043,6 +1043,70 @@ def _aliases_for_trim(trim: str) -> list[str]:
     return out
 
 
+def _extract_trim_from_title(title: str, brand: str, model: str) -> str:
+    """Pull a probable trim name out of a marketplace listing title.
+
+    Used for the "Other" bucket: instead of dumping every unmapped listing
+    into a single row, we group by the trim string still visible after
+    stripping brand/model/year/common spec words. So a YallaMotor listing
+    'Camry 2.5L GLE 204 HP' surfaces as 'GLE (not on toyota.com.sa)'.
+    """
+    if not title:
+        return "Unknown"
+    s = title
+
+    # Strip brand (English + Arabic, both cases of input)
+    brand_l = (brand or "").lower()
+    brand_ar = BRAND_AR.get(brand_l, "")
+    for b in (brand_l, "lexus", "toyota", brand_ar, "تويوتا", "لكزس"):
+        if b:
+            s = re.sub(rf"\b{re.escape(b)}\b", "", s, flags=re.IGNORECASE)
+
+    # Strip model (English + Arabic)
+    model_l = (model or "").lower()
+    model_ar = MODEL_AR.get(model_l, "")
+    for m in (model_l, model_ar):
+        if m:
+            s = re.sub(rf"\b{re.escape(m)}\b", "", s, flags=re.IGNORECASE)
+
+    # Strip 4-digit years 2000-2099
+    s = re.sub(r"\b20\d{2}\b", "", s)
+
+    # Strip noisy spec / condition / payment / promo terms — both languages.
+    common_patterns = [
+        # English specs / conditions
+        r"\bgasoline\b", r"\bpetrol\b", r"\bdiesel\b",
+        r"\bhybrid\b", r"\bhev\b", r"\bautomatic\b", r"\bmanual\b",
+        r"\bnew\b", r"\bused\b", r"\bmodel\b", r"\bspec\w*\b",
+        r"\b\d+\s*hp\b", r"\b\d+(\.\d+)?\s*l\b",   # "204 HP", "2.5L"
+        # Arabic fuel/transmission
+        r"بنزين", r"ديزل", r"هايبرد", r"هايبريد", r"اتوماتيك",
+        # Arabic condition
+        r"جديد(ة|ه)?", r"مستعمل(ة|ه)?", r"اصفار", r"أصفار", r"زيرو",
+        r"نظيف(ة|ه)?", r"شبه\s*جديد(ة|ه)?",
+        # Arabic origin
+        r"سعودي(ة|ه)?", r"خليجي(ة|ه)?", r"وارد", r"ممشى",
+        # Arabic dealer / promo / payment
+        r"وكال(ة|ه)", r"اصل(ي|ية)", r"معتمد(ة|ه)?",
+        r"موديل", r"عدد\s*\d+", r"اعلى\s*فئ(ة|ه)",
+        r"كاش", r"تقسيط", r"دفع", r"عروض", r"خاصة?", r"للبنوك",
+        r"دوبل", r"بيرمي", r"بريمي", r"ضمان", r"شامل\s*الضريبة",
+        r"فل\s*كامل", r"تويوتا", r"لكزس",
+        # Body-style ambiguity (mostly noise in titles)
+        r"\bسيدان\b", r"\bsedan\b", r"\bsuv\b", r"\bcoupe\b", r"\bwagon\b",
+        # Stray short Arabic tokens (bullet-point fillers like "ب", "م", etc.)
+        r"\bطيس\b",
+    ]
+    for pat in common_patterns:
+        s = re.sub(pat, "", s, flags=re.IGNORECASE)
+
+    # Tidy
+    s = re.sub(r"[-|•·–—]+", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+
+    return s if s else "Unknown"
+
+
 def _detect_condition(title: str, source_id: str) -> str:
     """Detect جديدة / مستعملة / غير محدد from listing title + source defaults."""
     t = (title or "").lower()
@@ -1366,8 +1430,13 @@ async def aggregate_prices(
             },
         })
 
-    # ── "Other" row: listings each source had that don't map to any official trim ──
-    other_all = []
+    # ── "Other" rows: one per extracted trim that isn't on the official site ──
+    # Group every unmapped listing by the trim string we can salvage from its
+    # title (e.g., 'Toyota Camry GLE 2025' → 'GLE'). One row per group, label
+    # is `<extracted_trim> (not on toyota.com.sa)`. Listings that strip down
+    # to nothing land under 'Unknown'.
+    from collections import defaultdict
+    other_buckets: dict[str, list[tuple[str, dict]]] = defaultdict(list)
     for src_id, leftovers in (
         ("haraj.com.sa",       haraj_other),
         ("syarah.com",         syarah_other),
@@ -1377,23 +1446,32 @@ async def aggregate_prices(
         for l in leftovers:
             if not isinstance(l.get("price"), int) or l["price"] <= 0:
                 continue
-            other_all.append(_to_schema_listing(l, src_id, brand, model))
-    if other_all:
-        other_prices = [l["price"] for l in other_all]
+            extracted = _extract_trim_from_title(l.get("title", ""), brand, model)
+            other_buckets[extracted].append((src_id, l))
+
+    # Sort by listing count so the most-populated rows surface first.
+    for extracted_trim in sorted(other_buckets, key=lambda k: -len(other_buckets[k])):
+        items = other_buckets[extracted_trim]
+        bucket_listings = [
+            _to_schema_listing(l, src_id, brand, model) for src_id, l in items
+        ]
+        prices = [x["price"] for x in bucket_listings if x["price"] > 0]
+        if not prices:
+            continue
         trims_out.append({
-            "officialName":   f"Other (not on {official_source_id})",
-            "officialNameAr": "أخرى",
+            "officialName":   f"{extracted_trim} (not on {official_source_id})",
+            "officialNameAr": extracted_trim,
             "officialMSRP":   0,
             "engine":         "",
             "commonAliases":  [],
-            "listings":       other_all,
+            "listings":       bucket_listings,
             "priceAnalysis": {
-                "marketMin":     min(other_prices),
-                "marketMax":     max(other_prices),
-                "marketAvg":     _avg(other_prices),
+                "marketMin":     min(prices),
+                "marketMax":     max(prices),
+                "marketAvg":     _avg(prices),
                 "vsOfficialPct": 0,
                 "trend":         "stable",
-                "listingCount":  len(other_prices),
+                "listingCount":  len(prices),
             },
         })
 

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  min-height: 100%;
+  /* Tahoma is widely available and renders Arabic well across macOS / Windows. */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma,
+    "Helvetica Neue", Arial, "Noto Naskh Arabic", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
