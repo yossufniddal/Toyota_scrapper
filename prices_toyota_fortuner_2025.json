@@ -1,0 +1,207 @@
+{
+  "vehicle": "2025 toyota fortuner",
+  "brand": "toyota",
+  "model": "fortuner",
+  "year": 2025,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 11,
+    "syarah_listings": 6,
+    "motory_listings": 5,
+    "yallamotor_listings": 5
+  },
+  "trims": [
+    {
+      "trim": "GX2 4X2",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 123855,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 115000
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 121900
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 123855
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 123855
+        }
+      }
+    },
+    {
+      "trim": "GX2 4X4",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 139552,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 131675
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 140875
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 140875
+        }
+      }
+    },
+    {
+      "trim": "GX2 4X4 DSL",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 151972,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 147085
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 147085
+        }
+      }
+    },
+    {
+      "trim": "VX1",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 162897,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 164766
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 158010
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 137033
+        }
+      }
+    },
+    {
+      "trim": "VX2-S DSL",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 181930,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 169766
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "VX3-S",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 187047,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/fortuner"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 168706
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 182160
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    }
+  ]
+}

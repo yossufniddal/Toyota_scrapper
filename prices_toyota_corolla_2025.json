@@ -1,0 +1,308 @@
+{
+  "vehicle": "2025 toyota corolla",
+  "brand": "toyota",
+  "model": "corolla",
+  "year": 2025,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 32,
+    "syarah_listings": 11,
+    "motory_listings": 8,
+    "yallamotor_listings": 10
+  },
+  "trims": [
+    {
+      "trim": "1.5L XLI",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 79350,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 70891
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 76808
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 79350
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 79350
+        }
+      }
+    },
+    {
+      "trim": "1.5L XLI Executive",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 83030,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 71800
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 7,
+          "avg": 78467
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 83030
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 83030
+        }
+      }
+    },
+    {
+      "trim": "1.8L XLI Hybrid",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 88780,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 71800
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 93667
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 93667
+        }
+      }
+    },
+    {
+      "trim": "1.8L XLI EXECUTIVE HEV M/R",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 98555,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 71966
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "2.0L XLI",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 83605,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 73950
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 83605
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 83605
+        }
+      }
+    },
+    {
+      "trim": "2.0L XLI Executive",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 87055,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 79900
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 87055
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 90332
+        }
+      }
+    },
+    {
+      "trim": "2.0L XLI EXECUTIVE MR",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 94300,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 69950
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 94300
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "2.0L GLi MR",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 99015,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/corolla"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 5,
+          "avg": 84180
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 99015
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "Other (not on toyota.com.sa)",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 90500,
+          "sample_titles": [
+            "تويوتا كورولا GLi 2025"
+          ]
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 104477,
+          "sample_titles": [
+            "تويوتا كورولا 2025 2.0L GLI Moonroof",
+            "تويوتا كورولا 2025 1.8L GLI Moonroof Hybrid"
+          ]
+        }
+      }
+    }
+  ]
+}

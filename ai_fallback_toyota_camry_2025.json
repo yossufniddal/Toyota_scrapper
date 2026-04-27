@@ -1,0 +1,282 @@
+{
+  "vehicle": "2025 toyota camry",
+  "brand": "toyota",
+  "model": "camry",
+  "year": 2025,
+  "searchDate": "April 2026",
+  "isAIFallback": true,
+  "officialPriceRange": {
+    "min": 89500,
+    "max": 135000
+  },
+  "marketInsight": "تويوتا كامري 2025 تحافظ على موقعها القوي في سوق السيارات السعودية كسيارة سيدان فاخرة موثوقة. الطلب مستقر على الفئات الهايبرد بسبب كفاءة الوقود، بينما تشهد الفئات البنزين العادية منافسة متزايدة. الأسعار في السوق تتماشى مع الأسعار الرسمية مع تذبذبات طفيفة حسب الموقع والمواصفات الإضافية.",
+  "trims": [
+    {
+      "officialName": "Camry Grande 2.5 Sedan AWD Gasoline Automatic",
+      "officialNameAr": "تويوتا كامري جراندي 2.5 سيدان دفع ثنائي بنزين أتوماتيك",
+      "officialMSRP": 89500,
+      "engine": "2.5L Gasoline 203hp Automatic",
+      "commonAliases": [
+        "كامري جراندي بنزين",
+        "كامري غراند اوتوماتيك",
+        "كامري 2.5 عادي"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري جراندي 2025 بنزين أتوماتيك",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 89500,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 87000,
+        "marketMax": 92000,
+        "marketAvg": 89500,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry LE 2.5 Sedan AWD Gasoline CVT Hybrid",
+      "officialNameAr": "تويوتا كامري ال اي 2.5 سيدان دفع ثنائي بنزين سي في تي هايبرد",
+      "officialMSRP": 105000,
+      "engine": "2.5L Hybrid 226hp CVT",
+      "commonAliases": [
+        "كامري ال اي هايبرد",
+        "كامري LE هايبرد",
+        "كامري اقتصادي"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري ال اي 2025 هايبرد",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 105000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 102000,
+        "marketMax": 108000,
+        "marketAvg": 105000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry E 2.5 Sedan AWD Gasoline CVT Hybrid",
+      "officialNameAr": "تويوتا كامري اي 2.5 سيدان دفع ثنائي بنزين سي في تي هايبرد",
+      "officialMSRP": 110000,
+      "engine": "2.5L Hybrid 226hp CVT",
+      "commonAliases": [
+        "كامري اي هايبرد",
+        "كامري E هايبرد",
+        "كامري وسط"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري اي 2025 هايبرد",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 110000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 107000,
+        "marketMax": 113000,
+        "marketAvg": 110000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry Lumiere 2.5 Sedan AWD Gasoline CVT Hybrid",
+      "officialNameAr": "تويوتا كامري لومير 2.5 سيدان دفع ثنائي بنزين سي في تي هايبرد",
+      "officialMSRP": 120000,
+      "engine": "2.5L Hybrid 226hp CVT",
+      "commonAliases": [
+        "كامري لومير",
+        "كامري Lumiere هايبرد",
+        "كامري فاخرة"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري لومير 2025 هايبرد",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 120000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 117000,
+        "marketMax": 123000,
+        "marketAvg": 120000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry E 2.5 Sedan AWD Gasoline Automatic",
+      "officialNameAr": "تويوتا كامري اي 2.5 سيدان دفع ثنائي بنزين أتوماتيك",
+      "officialMSRP": 95000,
+      "engine": "2.5L Gasoline 203hp Automatic",
+      "commonAliases": [
+        "كامري اي بنزين",
+        "كامري E اوتوماتيك",
+        "كامري وسط عادي"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري اي 2025 بنزين أتوماتيك",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 95000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 92000,
+        "marketMax": 98000,
+        "marketAvg": 95000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry LE 2.5 Sedan AWD Gasoline Automatic",
+      "officialNameAr": "تويوتا كامري ال اي 2.5 سيدان دفع ثنائي بنزين أتوماتيك",
+      "officialMSRP": 100000,
+      "engine": "2.5L Gasoline 203hp Automatic",
+      "commonAliases": [
+        "كامري ال اي بنزين",
+        "كامري LE اوتوماتيك",
+        "كامري عادي"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري ال اي 2025 بنزين أتوماتيك",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 100000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 97000,
+        "marketMax": 103000,
+        "marketAvg": 100000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    },
+    {
+      "officialName": "Camry E Plus 2.5 Sedan AWD Gasoline CVT Hybrid",
+      "officialNameAr": "تويوتا كامري اي بلس 2.5 سيدان دفع ثنائي بنزين سي في تي هايبرد",
+      "officialMSRP": 115000,
+      "engine": "2.5L Hybrid 226hp CVT",
+      "commonAliases": [
+        "كامري اي بلس هايبرد",
+        "كامري E Plus هايبرد",
+        "كامري اي بلس"
+      ],
+      "listings": [
+        {
+          "source": "ai-estimate",
+          "sourceName": "تقدير AI",
+          "listedAs": "تويوتا كامري اي بلس 2025 هايبرد",
+          "priceType": "estimated",
+          "matchConfidence": "high",
+          "condition": "جديدة",
+          "price": 115000,
+          "mileage": "0 كم",
+          "location": "السعودية",
+          "priceNote": "تقدير بناءً على معرفة السوق — وليس إعلان فعلي",
+          "sellerType": "dealer",
+          "sellerName": "الوكيل الرسمي",
+          "postedDaysAgo": 0,
+          "imageUrl": ""
+        }
+      ],
+      "priceAnalysis": {
+        "marketMin": 112000,
+        "marketMax": 118000,
+        "marketAvg": 115000,
+        "vsOfficialPct": 0,
+        "trend": "stable"
+      }
+    }
+  ],
+  "competitorAnalysis": {
+    "summary": "تويوتا كامري 2025 تتنافس بقوة مع هيونداي سوناتا وكيا أوبتيما وهوندا أكورد. الفئات الهايبرد تحظى بطلب أعلى بسبب كفاءة الوقود والاقتصاد في الاستهلاك. السوق السعودي يفضل السيارات الفاخرة الموثوقة، وكامري تحافظ على سمعتها العالية. الأسعار الرسمية تنافسية مقارنة بالمنافسين.",
+    "opportunities": [
+      "زيادة الطلب على الفئات الهايبرد بسبب ارتفاع أسعار الوقود",
+      "توسع السوق في المناطق الثانوية والمدن الصغيرة",
+      "تقديم عروض تمويلية جذابة لزيادة المبيعات",
+      "التركيز على خدمة ما بعد البيع والصيانة"
+    ],
+    "threats": [
+      "منافسة قوية من العلامات التجارية الأخرى في نفس الفئة",
+      "تذبذب أسعار الصرف قد يؤثر على الأسعار",
+      "تحول المستهلكين نحو السيارات الكهربائية والهجينة"
+    ],
+    "recommendation": "الاستثمار في الفئات الهايبرد والتركيز على الميزات التكنولوجية والأمان. تقديم حزم صيانة شاملة وضمانات طويلة الأجل لجذب العملاء. الحفاظ على الأسعار التنافسية مع ضمان جودة الخدمة."
+  }
+}

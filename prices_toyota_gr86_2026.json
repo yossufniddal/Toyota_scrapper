@@ -1,0 +1,83 @@
+{
+  "vehicle": "2026 toyota gr86",
+  "brand": "toyota",
+  "model": "gr86",
+  "year": 2026,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 2,
+    "syarah_listings": 0,
+    "motory_listings": 0,
+    "yallamotor_listings": 0
+  },
+  "trims": [
+    {
+      "trim": "GR86 AT",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 147487,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/gr86"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 149695
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "GR86 RS MT",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 147487,
+          "url": "https://www.toyota.com.sa/en/vehicles/passenger/gr86"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 149695
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    }
+  ]
+}

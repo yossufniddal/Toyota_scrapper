@@ -1,0 +1,183 @@
+{
+  "vehicle": "2026 lexus rx",
+  "brand": "lexus",
+  "model": "rx",
+  "year": 2026,
+  "official_source": "lexus.com.sa",
+  "sources_queried": [
+    "lexus.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 0,
+    "syarah_listings": 1,
+    "motory_listings": 4,
+    "yallamotor_listings": 7
+  },
+  "trims": [
+    {
+      "trim": "350 BB Excellence",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 315330,
+          "url": "https://www.lexus.com.sa/en/rx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 299000
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 310500
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 303370
+        }
+      }
+    },
+    {
+      "trim": "350h BH Hybrid",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 322230,
+          "url": "https://www.lexus.com.sa/en/rx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 334075
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 308786
+        }
+      }
+    },
+    {
+      "trim": "350 FF F-SPORT",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 327980,
+          "url": "https://www.lexus.com.sa/en/rx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 323150
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 314180
+        }
+      }
+    },
+    {
+      "trim": "500h FH F-Sport Hybrid",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 355580,
+          "url": "https://www.lexus.com.sa/en/rx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 345460
+        }
+      }
+    },
+    {
+      "trim": "Other (not on lexus.com.sa)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 290145,
+          "sample_titles": [
+            "لكزس آر اكس 2026 350 Elegant",
+            "لكزس آر اكس 2026 350 Elite"
+          ]
+        }
+      }
+    }
+  ]
+}

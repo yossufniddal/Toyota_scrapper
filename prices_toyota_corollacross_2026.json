@@ -1,0 +1,145 @@
+{
+  "vehicle": "2026 toyota corollacross",
+  "brand": "toyota",
+  "model": "corollacross",
+  "year": 2026,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 0,
+    "syarah_listings": 0,
+    "motory_listings": 0,
+    "yallamotor_listings": 0
+  },
+  "trims": [
+    {
+      "trim": "LE HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 103845,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "XLE HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 113505,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "LIMITED HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 129260,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "LIMITED PLUS HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 130410,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    }
+  ]
+}

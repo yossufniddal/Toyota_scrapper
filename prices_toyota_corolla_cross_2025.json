@@ -1,0 +1,181 @@
+{
+  "vehicle": "2025 toyota corolla cross",
+  "brand": "toyota",
+  "model": "corolla cross",
+  "year": 2025,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 24,
+    "syarah_listings": 4,
+    "motory_listings": 4,
+    "yallamotor_listings": 0
+  },
+  "trims": [
+    {
+      "trim": "LE HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 103845,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 93183
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 97462
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 103845
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "XLE HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 113505,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 91225
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 101200
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 113505
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "LIMITED HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 129260,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 94083
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 129260
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "LIMITED PLUS HEV",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 130410,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/corollacross"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 5,
+          "avg": 96500
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 130410
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "Other (not on toyota.com.sa)",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 106950,
+          "sample_titles": [
+            "تويوتا كورولا كروس LTD HEV 2025"
+          ]
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        }
+      }
+    }
+  ]
+}

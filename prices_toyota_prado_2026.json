@@ -1,0 +1,300 @@
+{
+  "vehicle": "2026 toyota prado",
+  "brand": "toyota",
+  "model": "prado",
+  "year": 2026,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 65,
+    "syarah_listings": 5,
+    "motory_listings": 9,
+    "yallamotor_listings": 0
+  },
+  "trims": [
+    {
+      "trim": "TX-2",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 199582,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 9,
+          "avg": 190987
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 198950
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 193775
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "TXL-1",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 208150,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 202545
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 209491
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 208150
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "TXL-3",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 238107,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 243087
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 232300
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "ADV-2",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 279622,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 13,
+          "avg": 197870
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 273815
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "ADV-2 2T",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 273815,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 193631
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 273815
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "VXL-3",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 288305,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 244000
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 288305
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "TX-2 DSL",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 201250,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 12,
+          "avg": 191668
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 201250
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "TXL-2 DSL",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 224250,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 3,
+          "avg": 219516
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 224250
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "ADV-1 DSL",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 249550,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/prado"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 200764
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 249550
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    }
+  ]
+}

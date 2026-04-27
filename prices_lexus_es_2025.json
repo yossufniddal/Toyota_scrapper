@@ -1,0 +1,250 @@
+{
+  "vehicle": "2025 lexus es",
+  "brand": "lexus",
+  "model": "es",
+  "year": 2025,
+  "official_source": "lexus.com.sa",
+  "sources_queried": [
+    "lexus.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 1,
+    "syarah_listings": 14,
+    "motory_listings": 3,
+    "yallamotor_listings": 7
+  },
+  "trims": [
+    {
+      "trim": "250 Elegant (AA)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 193315,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 193315
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "250 Excellence Plus (BD)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 245410,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 245410
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "350 Elite (CC)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 250240,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "300h Hybrid (AH)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 198720,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 185550
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 198720
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "350 Exclusive (DD)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 273470,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "350 F-Sport (FF)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 265190,
+          "url": "https://www.lexus.com.sa/en/es"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "Other (not on lexus.com.sa)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 14,
+          "avg": 228323,
+          "sample_titles": [
+            "لكزس ES 350 2025",
+            "لكزس ES 350 DD 2025",
+            "لكزس ES 300 AH Hybrid  2025"
+          ]
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 7,
+          "avg": 235359,
+          "sample_titles": [
+            "Lexus ES 2025 250 Elegant",
+            "Lexus ES 2025 300 Hybrid",
+            "Lexus ES 2025 300 Hybrid Plus"
+          ]
+        }
+      }
+    }
+  ]
+}

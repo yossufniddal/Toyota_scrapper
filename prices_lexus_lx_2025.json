@@ -1,0 +1,130 @@
+{
+  "vehicle": "2025 lexus lx",
+  "brand": "lexus",
+  "model": "lx",
+  "year": 2025,
+  "official_source": "lexus.com.sa",
+  "sources_queried": [
+    "lexus.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 15,
+    "syarah_listings": 4,
+    "motory_listings": 2,
+    "yallamotor_listings": 0
+  },
+  "trims": [
+    {
+      "trim": "600 Elite (BB)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 595412,
+          "url": "https://www.lexus.com.sa/en/lx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "700h Hybrid Elite (BH)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 600472,
+          "url": "https://www.lexus.com.sa/en/lx"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        }
+      }
+    },
+    {
+      "trim": "Other (not on lexus.com.sa)",
+      "sources": {
+        "lexus.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 15,
+          "avg": 169789,
+          "sample_titles": [
+            "تويوتا 2025 جيب ال اكس V6",
+            "كيا سونت ال اكس موديل 2025",
+            "هوندا CRV LX سي ار في 2025 عررض ما يتكرار مع هدايا مجانية"
+          ]
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 524200,
+          "sample_titles": [
+            "لكزس LX 600 BB Elite 2025",
+            "لكزس LX 600 BB Elite 2025",
+            "لكزس LX 600 BB Elite 2025"
+          ]
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 567755,
+          "sample_titles": [
+            "Lexus LX Hybrid Elite 2025",
+            "Lexus LX Elite 2025"
+          ]
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        }
+      }
+    }
+  ]
+}

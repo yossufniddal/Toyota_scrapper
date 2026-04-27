@@ -1,0 +1,247 @@
+{
+  "vehicle": "2025 toyota land cruiser",
+  "brand": "toyota",
+  "model": "land cruiser",
+  "year": 2025,
+  "sources_queried": [
+    "toyota.com.sa",
+    "haraj.com.sa",
+    "syarah.com",
+    "ksa.Motory.com",
+    "ksa.yallamotor.com"
+  ],
+  "totals": {
+    "haraj_listings": 30,
+    "syarah_listings": 6,
+    "motory_listings": 0,
+    "yallamotor_listings": 13
+  },
+  "trims": [
+    {
+      "trim": "GXR1",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 263407,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 5,
+          "avg": 303600
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 265000
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 252540
+        }
+      }
+    },
+    {
+      "trim": "GXR2",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 281347,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 4,
+          "avg": 308250
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 276460
+        }
+      }
+    },
+    {
+      "trim": "GXR3",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 310557,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 5,
+          "avg": 303600
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 2,
+          "avg": 315000
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 295550
+        }
+      }
+    },
+    {
+      "trim": "GXR4",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 322632,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 5,
+          "avg": 303600
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 290000
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 308200
+        }
+      }
+    },
+    {
+      "trim": "VX",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 387032,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 6,
+          "avg": 314533
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 2,
+          "avg": 375072
+        }
+      }
+    },
+    {
+      "trim": "VX-R",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 1,
+          "avg": 423947,
+          "url": "https://www.toyota.com.sa/en/vehicles/suv/lc300"
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 369200
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 1,
+          "avg": 428720
+        }
+      }
+    },
+    {
+      "trim": "Other (not on toyota.com.sa)",
+      "sources": {
+        "toyota.com.sa": {
+          "type": "official",
+          "count": 0,
+          "avg": 0,
+          "url": ""
+        },
+        "haraj.com.sa": {
+          "type": "marketplace",
+          "count": 0,
+          "avg": 0
+        },
+        "syarah.com": {
+          "type": "marketplace",
+          "count": 1,
+          "avg": 305000,
+          "sample_titles": [
+            "تويوتا لاندكروزر GXR-S 2025"
+          ]
+        },
+        "ksa.Motory.com": {
+          "type": "new_cars",
+          "count": 0,
+          "avg": 0,
+          "sample_titles": []
+        },
+        "ksa.yallamotor.com": {
+          "type": "new_cars",
+          "count": 6,
+          "avg": 310730,
+          "sample_titles": [
+            "Toyota Land Cruiser 2025 3.3T GX DSL",
+            "Toyota Land Cruiser 2025 3.5T GXR-L2",
+            "Toyota Land Cruiser 2025 3.5T GXR-L3 (4WD)"
+          ]
+        }
+      }
+    }
+  ]
+}
